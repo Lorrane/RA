@@ -38,7 +38,6 @@ apresentar usarei a imagem da logo
 }
 
 .tel {
-    /* flex-wrap: nowrap; */
     width: 120px;
 }
 
@@ -61,10 +60,6 @@ apresentar usarei a imagem da logo
     max-width: 600px;
 }
 
-.menu {
-    min-width: 369px;
-}
-
 nav {
     display: flex;
     justify-content: center;
@@ -74,8 +69,6 @@ ul {
     padding: 0;
     list-style: none;
 }
-
-
 
 li a {
     padding: 8px;
@@ -90,4 +83,19 @@ li a {
 li a:hover {
     background-color: #7c2b38;
     color: #f1ecd8;
+}
+
+    /* Responsividade para celulares pequenos */
+@media(max-width: 415px){
+    .topo {
+        display: none;
+    }
+
+    li a{
+        margin: 10px 5px 0 5px;
+    }
+
+    .menu {
+        min-width: 331px;
+    }
 }
