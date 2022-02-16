@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f1ecd89a;
-    /* min-width: 350px; */
 }
 
 .topo{
@@ -25,25 +24,27 @@ apresentar usarei a imagem da logo
 
 .contatos {
     min-width: 150px;
-    display: block;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .contatos a {
-    margin: 5px;
+    margin: 2px;
     display: flex;
     text-decoration: none;
     color: #7c2b38;
-    flex-wrap: nowrap;
-}
-
-.tel {
-    width: 120px;
 }
 
 .contatos a img {
     width: 20px;
     height: 20px;
+}
+
+.tel {
+    width: 140px;
+    /* height: 22px; */
+    display: inline-block;
 }
 
 .imagem {
@@ -71,13 +72,13 @@ ul {
 }
 
 li a {
-    padding: 8px;
-    margin: 0 20px 0 0;
+    padding: 10px;
+    margin: 10px 12px 0 12px;
     text-decoration: none;
     border-radius: 5px;
     color: #7c2b38;
     border: 1px solid #7c2b38;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -86,16 +87,21 @@ li a:hover {
 }
 
     /* Responsividade para celulares pequenos */
-@media(max-width: 415px){
+@media(max-width: 455px){
     .topo {
         display: none;
     }
 
     li a{
         margin: 10px 5px 0 5px;
+        padding: 8px;
+        font-size: 18px;
     }
+}
 
-    .menu {
-        min-width: 331px;
+@media(max-width: 360px){
+    li a {
+        margin: 10px 3px 0 3px;
+        font-size: 16px;
     }
 }
