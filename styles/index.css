@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f1ecd89a;
-    min-width: 350px;
+    /* min-width: 350px; */
 }
 
 .topo{
@@ -24,7 +24,7 @@ apresentar usarei a imagem da logo
 }*/
 
 .contatos {
-    width: 150px;
+    min-width: 150px;
     display: block;
 
 }
@@ -34,10 +34,12 @@ apresentar usarei a imagem da logo
     display: flex;
     text-decoration: none;
     color: #7c2b38;
+    flex-wrap: nowrap;
 }
 
 .tel {
-    min-width: 112px;
+    /* flex-wrap: nowrap; */
+    width: 120px;
 }
 
 .contatos a img {
@@ -71,8 +73,6 @@ nav {
 ul {
     padding: 0;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
 }
 
 
