@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f1ecd84d;
+    background-color: #f1ecd89a;
+    min-width: 350px;
 }
 
 .topo{
@@ -12,16 +13,19 @@ body {
 }
 
 .logo-pq {
-    padding: 18px 0 0 18px; 
+    padding: 18px 0 0 5px; 
     width: 200px;
 }
 
+/* caso não consiga a fonte da logo para 
+apresentar usarei a imagem da logo
 .logo-pq img {
-    width: 200px;
-}
+    width: 200px; 
+}*/
 
 .contatos {
     width: 150px;
+    display: block;
 
 }
 
@@ -30,6 +34,10 @@ body {
     display: flex;
     text-decoration: none;
     color: #7c2b38;
+}
+
+.tel {
+    min-width: 112px;
 }
 
 .contatos a img {
@@ -47,29 +55,31 @@ body {
 }
 
 .imagem img {
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.menu {
+    min-width: 369px;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    
 }
 
 ul {
-    width: 450px;
+    padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-li {
-    margin: 0 10px;
-}
+
 
 li a {
     padding: 8px;
-    margin: 0 10px;
+    margin: 0 20px 0 0;
     text-decoration: none;
     border-radius: 5px;
     color: #7c2b38;
