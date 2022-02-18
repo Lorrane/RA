@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+
+:root {
+    --background-default-brown: #7c2b38;
+    --background-default-cream: #f1ecd89a;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f1ecd89a;
+    background-color: var(--background-default-cream);
 }
 
 .topo{
@@ -12,15 +19,10 @@ body {
 }
 
 .logo-pq {
+    font-family: 'EB Garamond', serif;
     padding: 18px 0 0 5px; 
     width: 200px;
 }
-
-/* caso não consiga a fonte da logo para 
-apresentar usarei a imagem da logo
-.logo-pq img {
-    width: 200px; 
-}*/
 
 .contatos {
     min-width: 150px;
@@ -33,7 +35,7 @@ apresentar usarei a imagem da logo
     margin: 2px;
     display: flex;
     text-decoration: none;
-    color: #7c2b38;
+    color: var(--background-default-brown);
 }
 
 .contatos a img {
@@ -43,14 +45,13 @@ apresentar usarei a imagem da logo
 
 .tel {
     width: 140px;
-    /* height: 22px; */
     display: inline-block;
 }
 
 .imagem {
     width: 100%;
     height: 200px;
-    background-color: #7c2b38;
+    background-color: var(--background-default-brown);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,14 +77,14 @@ li a {
     margin: 10px 12px 0 12px;
     text-decoration: none;
     border-radius: 5px;
-    color: #7c2b38;
-    border: 1px solid #7c2b38;
+    color: var(--background-default-brown);
+    border: 1px solid var(--background-default-brown);
     font-size: 20px;
 }
 
 li a:hover {
-    background-color: #7c2b38;
-    color: #f1ecd8;
+    background-color: var(--background-default-brown);
+    color: var(--background-default-cream);
 }
 
     /* Responsividade para celulares pequenos */
