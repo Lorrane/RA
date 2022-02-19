@@ -3,10 +3,12 @@
 </p>
 <h1 align=center>RA - Organização Documental</h1>
 <p display=inline-block>
-  <img alt="Developed by Lorrane" src="https://img.shields.io/badge/Developed%20By-Lorrane-blue?logo=visual%20studio" />
-  <img alt="Developed by Lorrane" src="https://img.shields.io/badge/Technology-Html/Css-blue?logo=html5" />
-  <img alt="Developed by Lorrane" src="https://img.shields.io/badge/Status-Working%20on-orange" />
+  <img align=right alt="Status: Working on" src="https://img.shields.io/badge/Status-Working%20on-orange" />
+  <img alt="Html" src="https://img.shields.io/badge/Html-4D4D4D?logo=html5&style=for-the-badge" />
+  <img alt="Developed by Lorrane" src="https://img.shields.io/badge/Css-4D4D4D?logo=css3&style=for-the-badge&logoColor=blue" />
 </p>
+
+
 
 Projeto em andamento 👷‍. <br>
 Uma landing page, com o intuito de dar visibilidade para a empresa e apresentar seus serviços.
@@ -30,3 +32,5 @@ Uma landing page, com o intuito de dar visibilidade para a empresa e apresentar 
 
 ## Modelo 
 Quer saber como está o andamento do projeto, clique <a href="lorrane.github.io/RA">aqui</a>.
+
+<img align=right alt="Developed by Lorrane" src="https://img.shields.io/badge/Developed%20By-Lorrane-blue?logo=visual%20studio" />
