@@ -10,7 +10,7 @@
 
 
 
-Projeto em andamento 👷‍. <br>
+Projeto em andamento 👷‍. (Aguardando retorno do cliente para seguir o desenvolvimento)<br>
 Uma landing page, com o intuito de dar visibilidade para a empresa e apresentar seus serviços.
 
 ## Script

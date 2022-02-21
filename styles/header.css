@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+
+:root {
+    --background-default-brown: #7c2b38;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-pq {
+    font-family: 'EB Garamond', serif;
+    padding: 18px 0 0 5px; 
+    width: 200px;
+}
+
+.contatos {
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contatos a {
+    margin: 2px;
+    display: flex;
+    text-decoration: none;
+    color: var(--background-default-brown);
+}
+
+.contatos a img {
+    width: 20px;
+    height: 20px;
+}
+
+.tel {
+    width: 140px;
+    display: inline-block;
+}
+
+.imagem {
+    width: 100%;
+    height: 200px;
+    background-color: var(--background-default-brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem img {
+    width: 90%;
+    max-width: 600px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li a {
+    padding: 10px;
+    margin: 10px 12px 0 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: var(--background-default-brown);
+    border: 1px solid var(--background-default-brown);
+    font-size: 20px;
+}
+
+li a:hover, a:active {
+    background-color: var(--background-default-brown);
+    color: #f1ecd89a;
+}
+
+a.selected {
+    box-shadow: inset -0.1px -0.1px 4px rgb(44, 2, 2) ;
+    background-color: var(--background-default-brown);
+    color: #f5f3eaa4;
+}
+
+    /* Responsividade para celulares pequenos */
+@media(max-width: 455px){
+    .topo {
+        display: none;
+    }
+
+    li a{
+        margin: 10px 5px 0 5px;
+        padding: 8px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 360px){
+    li a {
+        margin: 10px 3px 0 3px;
+        font-size: 16px;
+    }
+}
