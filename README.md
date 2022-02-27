@@ -3,9 +3,9 @@
 </p>
 <h1 align=center>RA - Organização Documental</h1>
 <p display=inline-block>
-  <img align=right alt="Status: Working on" src="https://img.shields.io/badge/Status-Working%20on-orange" />
-  <img alt="Html" src="https://img.shields.io/badge/Html-4D4D4D?logo=html5&style=for-the-badge" />
-  <img alt="Developed by Lorrane" src="https://img.shields.io/badge/Css-4D4D4D?logo=css3&style=for-the-badge&logoColor=blue" />
+  <img alt="Status: Working on" src="https://img.shields.io/badge/Status-Working%20on-orange" />
+  <img align=right alt="CSS 3" src="https://img.shields.io/badge/Css-4D4D4D?logo=css3&style=for-the-badge&logoColor=blue" />
+  <img align=right alt="Html 5" src="https://img.shields.io/badge/Html-4D4D4D?logo=html5&style=for-the-badge" />
 </p>
 
 
@@ -16,19 +16,19 @@ Uma landing page, com o intuito de dar visibilidade para a empresa e apresentar 
 ## Script
 
 - [x] Header
-- [x] Company card
-- [x] Center menu
+- - [x] Company card
+- - [x] Center menu
 - [ ] Main content
-- [ ] Company presentation
+- - [ ] Company presentation
 - [ ] Services page
-- [ ] Cards of services
+- - [ ] Cards of services
 - [ ] Staff page
-- [ ] Cards of staff
+- - [ ] Cards of staff
 - [ ] Contact page
-- [ ] Contact form
+- - [ ] Contact form
 - [ ] Footer
-- [ ] Site map
-- [ ] Contact info
+- - [ ] Site map
+- - [ ] Contact info
 
 ## Modelo 
 Quer saber como está o andamento do projeto, clique <a href="lorrane.github.io/RA">aqui</a>.
