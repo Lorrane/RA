@@ -31,6 +31,6 @@ Uma landing page, com o intuito de dar visibilidade para a empresa e apresentar 
 - - [ ] Contact info
 
 ## Modelo 
-Quer saber como está o andamento do projeto, clique <a href="lorrane.github.io/RA">aqui</a>.
+Quer saber como está o andamento do projeto, clique <a href="https://lorrane.github.io/RA">aqui</a>.
 
 <img align=right alt="Developed by Lorrane" src="https://img.shields.io/badge/Developed%20By-Lorrane-blue?logo=visual%20studio" />
